@@ -1,0 +1,12 @@
+id,nombre,primerApellido,segundoApellido,correo,telefono,fechaNacimiento,curp,sueldo,idEstadoOrigen,idEstatus
+1,Christian Josue,Gonzalez,Lozano,chrisz190696@gmail.com,4922153353,19/06/1996,GOLC960619HZSNZH08,NULL,31,3
+2,Roland,Juarez,,roland@gmail.com,4421221000,05/01/1997,JULR111111HZSNZH02,NULL,14,3
+4,Luis,Enriquez,Martinez,luiss@gmail.com,4421221002,20/05/1999,ENML990520HZSNZH06,NULL,15,3
+5,Gessiel,Hernandez,Flores,gess@gmail.com,4421221003,30/04/1994,GESS940430HZSNZH08,NULL,12,3
+6,Rodrigo,Gutierrez,Lopez,jesus@gmail.com,4421221004,15/07/1998,GULR555555HZSNZH10,NULL,12,3
+7,Hipoclorito,Arcangel,San,jesus@gmail.com,4421221005,10/08/1996,ARSH666666HZSNZH12,NULL,19,8
+8,Briceidi,Raygoza,Rodarte,briceidi@gmail.com,4421221006,02/04/2000,RARN777777MZSNZH14,24000,25,5
+9,Nancy,Raygoza,Rodarte,nancy@gmail.com,4421221007,03/04/1998,AIHP911101MCHRRR03,NULL,31,5
+10,Bety,Soto,Ramirez,bety@gmail.com,4421221008,05/04/2002,BETY020405MZSNZH14,NULL,21,5
+11,Manuel,Gonzalez,Soto,manuelito@gmail.com,4421221009,06/04/2000,MANU080808HZSNZH14,NULL,31,5
+12,Mayte,Gonzalez,Pacheco,mayte@gmail.com,4421221011,08/04/1997,MAYT090909MZSNZH14,NULL,30,5

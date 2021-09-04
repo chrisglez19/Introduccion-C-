@@ -1,0 +1,15 @@
+﻿<encoding UTF>
+<alumno>
+	<nombre>Chris</nombre>
+	<primerApellido>Glez</primerApellido>
+	<segundoApellido>Lozano</segundoApellido>
+	<edad>25</edad>
+	<estado>Zacatecas</estado>
+</alumno>
+<alumno>
+	<nombre>Briceidi</nombre>
+	<primerApellido>Raygoza</primerApellido>
+	<segundoApellido>Rodarte</segundoApellido>
+	<edad>25</edad>
+	<estado>Calera</estado>
+</alumno>

@@ -1,0 +1,15 @@
+﻿<encoding UTF>
+<alumno>
+<nombre>Christian</nombre>
+<primerApellido>Glez</primerApellido>
+<segundoApellido>Lozano</segundoApellido>
+<edad>25</edad>
+<estado>Zacatecas</estado>
+</alumno>
+<alumno>
+<nombre>Rolas</nombre>
+<primerApellido>Perez</primerApellido>
+<segundoApellido>Lopez</segundoApellido>
+<edad>23</edad>
+<estado>Mexico</estado>
+</alumno>
