@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="StyleSheet"  TYPE="text/css" href="styles.css">
+        <div align="center" id="logo">
+            <img src="logo.png" class="app-logo" alt="Logotipo" />
+           
+        </div>
+        <title>Suma</title>
+    </head>
+    <body><center>
+        <h1>Suma</h1>
+        <hr />
+        <label >Numero 1</label>
+        <br />
+        <input type="number" id= "num1" class="circle">
+        <br />
+        <label>Numero 2</label>
+        <br />
+        <input type="number"id= "num2" class="circle">
+        <br />
+        <button  id= "calc" class="circle" onclick="sumar()">Sumar</button>
+        <br/>
+        <input class="circle" id="resultado" ></input>
+        <p id="result"></p>
+        <script>
+            function sumar(){
+            var a = document.getElementById("num1").value;
+            
+            var b = document.getElementById("num2").value;
+            var suma = parseInt(a) + parseInt(a);
+            document.getElementById("resultado").value = suma;
+            document.getElementById("result").innerText = suma;
+            }
+        </script>
+        <br />
+        
+        <hr />
+        <footer>
+        <p>© 2021 Control Escolar TICH</p>
+        </footer>
+    </center>
+    </body>
+</html>

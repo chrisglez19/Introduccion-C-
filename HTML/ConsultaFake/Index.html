@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="StyleSheet"  TYPE="text/css" href="styles.css">
+        <div align="center" id="logo">
+            <img src="logo.png" class="app-logo" alt="Logotipo" />
+           
+        </div>
+        <title>Alumnos</title>
+    </head>
+    <body><center>
+        <h1>Alumnos</h1>
+        <hr />
+        <label >Id: </label>
+        
+        <input type="text" id= "idd" class="circle" >
+        <br />
+        <label>Nombre:</label>
+        
+        <input type="text"id= "nombre" class="circle" disabled>
+        <br />
+        <label>Edad:</label>
+        
+        <input type="text"id= "edad" class="circle" disabled>
+        <br />
+        <label>Estado Origen:</label>
+        <select class="circle" disabled id="cbox">
+            <option disabled selected>Selecciona</option>
+            <option>Jalisco</option>
+            <option>Hidalgo</option>
+            <option id="zac">Zacatecas</option>
+        </select>
+        <br />
+        <input type="radio"id= "estat" disabled>Estatus
+        <br />
+        <button  id= "calc" class="circle" onclick="Consultar()">Consultar</button>
+        <br/>
+        
+        <script>
+            function Consultar(){
+            var id = document.getElementById("idd").value;
+            if (!isNaN(id)&&id!="")
+            {
+                document.getElementById('idd').disabled = true;
+                document.getElementById('nombre').disabled = false;
+                document.getElementById('nombre').value = "Pepito";
+                document.getElementById('edad').disabled = false;
+                document.getElementById('edad').value= "25";
+                document.getElementById('cbox').disabled = false;
+                document.getElementById('cbox').value="Zacatecas";
+                document.getElementById('estat').checked= true;
+                document.getElementById('estat').disabled = false;
+                document.getElementById('calc').innerText="Guardar";
+            }
+            else{
+                alert("Ingresa un valor valido")
+            }
+            if(document.getElementById('calc').innerText=="Guardar")
+            {
+                if(isNaN(id))
+                {
+                    
+                }
+                else
+                {
+                    document.getElementById('calc').innerText="Consultar";
+                }
+            }
+        }
+        </script>
+        <br /> 
+        
+        <hr />
+        <footer>
+        <p>© 2021 Control Escolar TICH</p>
+        </footer>
+    </center>
+    </body>
+</html>
